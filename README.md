@@ -19,4 +19,8 @@ They are Ansible Playbook scripts
 
 DockerFile usage
 
-Docker build -t <name> <path to the file>
+Docker build -t <container name> <path to the file>
+
+Spin a container
+
+Docker run -ti -p 5001:5001 <container name>
